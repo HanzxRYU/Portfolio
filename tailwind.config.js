@@ -6,6 +6,9 @@ module.exports = {
       fontFamily:{
         "OpenSans": "Open Sans",
       },
+      backgroundImage:{
+        "Stars" : 'url../public/Stars.jpeg'
+      }
     },
   },
   plugins: [],
