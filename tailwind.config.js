@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily:{
         "OpenSans": "Open Sans",
+        "Helvetica Neue": "Helvetica Neue",
       },
       backgroundImage:{
         "Stars" : 'url../public/Stars.jpeg'
