@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,5 +8,58 @@
   </head>
   <body>
     <img src="UIAAAUIA.gif" alt="Gambar Animasi" class="slide-in" />
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marquee Example</title>
+    <style>
+      .marquee {
+        height: 50px;
+        overflow: hidden;
+        position: relative;
+        background: #f0f0f0;
+        color: #333;
+        border: 1px solid #4a4a4a;
+        white-space: nowrap;
+      }
+
+      .marquee p {
+        display: inline-block;
+        margin: 0;
+        line-height: 50px;
+        animation: scroll-left 30s linear infinite; /* Animasi lebih lambat */
+        font-size: 20px;
+        color: #ff5733;
+      }
+
+      .marquee p span {
+        margin-right: 50px; /* Menambahkan jarak antar teks */
+      }
+
+      @keyframes scroll-left {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="marquee">
+      <p>
+        <span>Udddin</span><span>Hannan</span><span>Hans</span>
+        <span>Hannan</span><span>Udddin</span><span>Hannan</span>
+        <span>Udddin</span><span>Hannan</span><span>Hans</span>
+        <span>Hannan</span><span>Udddin</span><span>Hannan</span>
+        <span>Udddin</span><span>Hannan</span><span>Hans</span>
+        <span>Hannan</span><span>Udddin</span><span>Hannan</span>
+      </p>
+    </div>
   </body>
 </html>
